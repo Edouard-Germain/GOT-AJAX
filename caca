@@ -1,0 +1,16 @@
+$(function(){
+    $.ajax({
+        url: 'https://thronesapi.com/api/v2/Characters',
+        success: function(data, statuts, response) {
+          
+            console.log('#2');
+            console.log(data);           
+        }
+    })
+})
+   
+
+        display()
+    })
+    display()
+}   
